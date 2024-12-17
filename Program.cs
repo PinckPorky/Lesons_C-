@@ -42,9 +42,9 @@ namespace Lesons_C_
 
             //int priceDown = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите количество уровней:  ");
+            Console.WriteLine("Введите нижнию цену:  ");
 
-            int Nstep = Convert.ToInt32(Console.ReadLine());
+            int priceD = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Введите шаг уровня:  ");
 
@@ -54,15 +54,16 @@ namespace Lesons_C_
 
             // b - верхняя  цена, c - нижняя цена, d - количество уровней, f - шаг уровня
 
-            for (int i = 0; i < Nstep; i++)
+            for (; priceUp > priceD; priceUp -= steplevl)
             {
                 levels.Add(priceUp);
 
-                priceUp -= steplevl;
-
+                //priceUp -= steplevl;
+                //Console.WriteLine(levels[priceUp]);
+                
             }
 
-            for (int i = 0; i < Nstep; i++) 
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(levels[i]);
             }
