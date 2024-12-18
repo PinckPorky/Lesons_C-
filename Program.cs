@@ -58,12 +58,12 @@ namespace Lesons_C_
             {
                 levels.Add(priceUp);
 
-                //priceUp -= steplevl;
-                //Console.WriteLine(levels[priceUp]);
+                
+               
                 
             }
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 1000 && priceD > priceUp; i++)
             {
                 Console.WriteLine(levels[i]);
             }
