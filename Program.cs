@@ -70,7 +70,7 @@ namespace Lesons_C_
                 
             }
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 100 && priceUp == priceD ; i++)
             {
                 Console.WriteLine(levels[i]);
             }
