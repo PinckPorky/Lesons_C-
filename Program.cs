@@ -16,7 +16,7 @@ namespace Lesons_C_
             List<decimal> levels = new List<decimal>();
 
 
-
+            #region Filds
 
             Console.WriteLine("Введите верхнию цену: ");
 
@@ -50,6 +50,7 @@ namespace Lesons_C_
 
             int steplevl = Convert.ToInt32(Console.ReadLine());
 
+            #endregion
 
 
             // b - верхняя  цена, c - нижняя цена, d - количество уровней, f - шаг уровня
@@ -63,7 +64,7 @@ namespace Lesons_C_
                 
             }
 
-            for (int i = 0; i < 1000 && priceD > priceUp; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(levels[i]);
             }
