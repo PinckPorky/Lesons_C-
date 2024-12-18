@@ -7,14 +7,20 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
+
 namespace Lesons_C_
 {
     class Program
     {
+
+        static List<level> levels;
+
+
         static void Main(string[] args)
         {
             List<decimal> levels = new List<decimal>();
 
+            
 
             #region Filds
 
@@ -71,7 +77,13 @@ namespace Lesons_C_
 
             Console.ReadLine();
 
+
+
+            
         }
     }
+
+   
+
 }
  
