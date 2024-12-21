@@ -72,7 +72,9 @@ namespace Lesons_C_
 
             for (int i = 0; i < 100 && priceUp == priceD ; i++)
             {
-                Console.WriteLine(levels[i]);
+                Console.WriteLine("Цена уровня " + levels[i]);
+
+                
             }
 
             Console.ReadLine();

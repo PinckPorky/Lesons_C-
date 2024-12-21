@@ -11,7 +11,7 @@ namespace Lesons_C_
         #region Filds
         public level(decimal price)
         {
-        pricelevel = price;
+
         }
 
         /// <summary>
@@ -22,7 +22,7 @@ namespace Lesons_C_
         /// <summary>
         /// лот на уровень
         /// </summary>
-        public decimal  lotlevel = 0;
+        public decimal lotlevel = 0;
 
 
         /// <summary>
@@ -33,6 +33,40 @@ namespace Lesons_C_
 
 
 
+
+
+
+
+        #endregion
+
+
+        #region Method
+
+        //public static CalculateLevels(decimal priceUp, decimal priceD, int count)
+        //{
+        //    List<level> levels = new List<level>();
+
+        //    decimal priceLevel = priceUp;
+
+        //    for (int i = 0; i < count; i++) {
+
+        //        level level = new level();
+        //        {
+        //            priceLevel = pricelevel;
+
+        //            levels.Add(level);
+
+        //            priceLevel -= priceUp;
+
+        //        }
+
+        //        return level;
+
+
+
+
+
+        //}
 
 
 
